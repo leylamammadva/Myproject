@@ -1,0 +1,74 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <View
+        android:id="@+id/box1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#55007A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.4"/>
+
+
+    <View
+        android:id="@+id/box2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#CE8FFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/box1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.1"/>
+
+    <View
+        android:id="@+id/box3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#55007A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/box2"
+        app:layout_constraintEnd_toStartOf="@+id/box4"
+        app:layout_constraintWidth_percent="0.5"
+        app:layout_constraintHeight_percent="0.05"/>
+
+    <View
+        android:id="@+id/box4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#55007A"
+        app:layout_constraintStart_toEndOf="@id/box3"
+        app:layout_constraintTop_toBottomOf="@id/box2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.5"
+        app:layout_constraintHeight_percent="0.05"/>
+
+
+    <View
+        android:id="@+id/box5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#55007A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/box3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.4"/>
+
+    <View
+        android:id="@+id/box6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#55007A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/box5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.05"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
