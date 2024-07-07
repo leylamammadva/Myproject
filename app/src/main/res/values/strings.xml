@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="homework15_xml">homework15.xml</string>
+    <string name="newaccount">Create Account</string>
+    <string name="homework16">1</string>
+    <string name="subtitle">Already have an account</string>
 </resources>
